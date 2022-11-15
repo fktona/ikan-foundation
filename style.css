@@ -4,9 +4,11 @@
     box-sizing: border-box;
     list-style: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,200;1,300;1,400;1,500;1,800;1,900&display=swap');
 
-      /* varibles used*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+/* varibles used*/
  :root{
     --pr:#d31a1a;
     --se:rgb(247, 222, 224);
@@ -70,6 +72,7 @@ z-index: 888;
 padding: 0.5rem;
  color: var(--pr);
  opacity: -1;
+ font-family: Poppins , Arial, Helvetica, sans-serif;
  transition: all 400ms;
  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.171);
 
@@ -131,7 +134,7 @@ float: right;
     justify-content: center;
     color: #FFFF;
     text-shadow: var(--ts);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
   /* landing image*/
@@ -269,11 +272,11 @@ float: right;
     animation-play-state: running;
 }
 
-.heading div span i:hover{
+/*.heading div span i:hover{
     color: #d31a1a;
     background-color: black;
 
-}
+}*/
 .showcase img{
     width: 100%;
     object-fit: cover;
@@ -330,7 +333,8 @@ float: right;
 .about_text, .vission_text{
 text-align: start;
 line-height: 1.43rem;
-font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+font-family:Montserrat ,  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -342,6 +346,7 @@ font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
     flex-direction: column;
     padding: 1.3rem;
     overflow: hidden;
+    font-family: Montserrat , Arial, Helvetica, sans-serif;
 }
 
    /* MEMBERS PICTURES AND INFO*/
@@ -395,12 +400,14 @@ font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
+
+
        /* PROJECTS DONE   */
 
 
 #project{
     background-color: #060708;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat , Arial, Helvetica, sans-serif;
     padding-bottom: 6rem;
      transition: 1000ms;
      scroll-snap-type: y mandatory;
@@ -635,6 +642,7 @@ opacity: -1;
      rgb(241, 241, 202, 0.6), rgb(161, 238, 202, 0.6));*/
     isolation: isolate;
     perspective: 1000px;
+    font-family: Montserrat , Arial, Helvetica, sans-serif;
     
 }
 
